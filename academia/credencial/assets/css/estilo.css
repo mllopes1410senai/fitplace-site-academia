@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+:root{
+    --bg--principal: #000000;
+    --bg--secundaria: #EE633C;
+    --cor--text: #ffffff;
+    --cor--texto--secundario: #B3B3B3;
+}
+.logo{
+    height: 100px;
+}
+.login{
+    background-color: #EE633C;
+    width: 120px;
+    height: 35px;
+    border-radius: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+body{
+    background-color: var(--bg--principal);
+    color: var(--cor--text);
+    font-family: Onest;
+}
+
+Header{ 
+Background-color: var(--bg-principal); 
+Width: 100%; 
+Height: 100px; 
+Display: flex; 
+Flex-direction: row; 
+Align-items: center; 
+Justify-content: space-between; 
+}
+Nav{ 
+Display: flex; 
+Align-items: center; 
+}
+A{
+Color: var(--texto-principal); 
+Padding: 30px; 
+Text-transform: uppercase; 
+Font-weight: bold; 
+}
+Header img{ 
+Width: 100px; 
+Margin-left: 30px; 
+}
+Header nav a img{ 
+Width: 60px; 
+Margin-left: 20px; 
+} 
+.img-banner{
+    width: 100%;
+}
+.banner{
+    width: 100%;
+    height: 800px;
+    background-image: url(../img/image\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 50px;
+}
+.imagem_perfil{
+    width: 500px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+}
+.qr_code{
+    width: 500px;
+    height: 500px;
+    display: block;
+    margin: 0 auto;
+}
+.voltar {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 100px auto;
+    position: relative;
+    left: -275px;
+}
+.voltar_texto{
+    text-align: center;
+    margin: -137px;
+    margin-right: 155px;
+    font-size: 20px;
+}
